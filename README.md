@@ -26,7 +26,7 @@
                       <_oo_>
 ```
 
-I needed a good enough reason to finally [learn how to do inline assembly in Rust](https:github.com/graves/thechinesegovernment). I thought this might be an interesting way to use generative testing tools like [quickcheck](https://github.com/BurntSushi/quickcheck). I needed to first make sure the logic worked in raw assembly.
+I needed a good enough reason to finally [learn how to do inline assembly in Rust](https://github.com/graves/thechinesegovernment). I thought this might be an interesting way to use generative testing tools like [quickcheck](https://github.com/BurntSushi/quickcheck). I needed to first make sure the logic worked in raw assembly.
 
 - [dinoxor.s](./dinoxor.s) contains the dinoxor assembly code.
 - [main.c](./main.c) contains a simple C program for using the `dinoxor` proccedure to XOR a byte against another byte.
